@@ -1,0 +1,134 @@
+{
+    "name": "ControlesPlatos",
+    "maps": [
+        {
+            "name": "Acciones",
+            "id": "34e7b466-f330-45fe-91e1-c34bc67ddb45",
+            "actions": [
+                {
+                    "name": "AvanzaPlato",
+                    "type": "Button",
+                    "id": "f40273e7-bb1f-411e-89e9-cff5f3657e9f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RetrocedePlato",
+                    "type": "Button",
+                    "id": "d9c0fb97-e8ec-483b-add1-3adc2d5ffb72",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MuestraMenu",
+                    "type": "Button",
+                    "id": "ed745dea-9ed2-46ff-90a2-1647ba402c90",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AvanzaIndexMenu",
+                    "type": "Button",
+                    "id": "047435c1-df26-4239-8baa-8cd39ccdd7c9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RetrocedeIndexMenu",
+                    "type": "Button",
+                    "id": "3ca37ae6-cd23-4d09-89b2-6eb5efd7e2f3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CancelaMenu",
+                    "type": "Button",
+                    "id": "3095d4fa-abc6-46fd-93ac-03b46e339786",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "73dbb2a4-4a11-4496-a1d9-0ba4aaf82ede",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AvanzaPlato",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "524ce8cd-59f1-420f-b230-1cbec135b1cc",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RetrocedePlato",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c93fc83d-6f0d-4ed4-bff8-c6f7737e38c4",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MuestraMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "84096784-8eae-4ef5-acab-72ec06543dd2",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AvanzaIndexMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "faaf928e-9a28-4920-913b-64c4de46fbee",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RetrocedeIndexMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "de158e5f-e2a1-4bad-950c-4d492175d46e",
+                    "path": "*/{Cancel}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CancelaMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
