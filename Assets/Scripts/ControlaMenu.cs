@@ -31,7 +31,7 @@ public class ControlaMenu : MonoBehaviour
     EventSystem m_EventSystem;
 
     int objetoSeleccionado = 0;
-    int nuevoSeleccionado = 0;
+    public int nuevoSeleccionado = 0;
     int objetoInicial = 0;
 
     void Awake()
@@ -141,5 +141,10 @@ public class ControlaMenu : MonoBehaviour
         nuevoSeleccionado = objetoInicial;
         CambiaSelected();
         menuCompleto.SetActive(false);
+    }
+
+    public void SetSeleccionado(int seleccionado)
+    {
+        nuevoSeleccionado = seleccionado;
     }
 }

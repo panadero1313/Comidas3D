@@ -129,5 +129,6 @@ public class CambiaMesh : MonoBehaviour
     void MuestraMenu()
     {
         menuCompleto.SetActive(true);
+        FindObjectOfType<ControlaMenu>().SetSeleccionado(id_plato_actual);
     }
 }
